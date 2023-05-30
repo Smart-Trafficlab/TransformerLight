@@ -1,4 +1,4 @@
-
+# TransformerLight —— Official Implementation
 ## TransformerLight: A Novel Sequence Modeling Based Traffic Signaling Mechanism via Gated Transformer
 
 **Abstract:** Traffic signal control (TSC) is still one of the most significant and challenging research problems in the transportation field.
@@ -9,3 +9,15 @@ A novel framework, namely TransformerLight, is introduced, which does not aim to
 Additionally, the learning process of TransformerLight is much more stable by replacing the residual connections with gated transformer blocks due to a dynamic system perspective. Through numerical experiments on offline datasets, we demonstrate that the TransformerLight model: (1) 
 can build a high-performance adaptive TSC model without dynamic programming; (2) achieves a new state-of-the-art compared to most published offline RL methods so far; and (3) shows a more stable learning process than offline RL and recent Transformer-based methods. The relevant dataset and code are available at https://github.com/Smart-Trafficlab/TransformerLight.
 
+## Experiment
+
+
+**run_DT.py, run_TT.py, run_decision_transforlight.py:**
+Scripts that run traffic simulation experiments using specified traffic scenarios. 
+
+
+**run_test.py:**
+A traffic simulation testing framework is implemented that allows the evaluation of trained traffic models using different traffic scenarios.
+
+**summary.py:** 
+It is used to summarize and analyze test results of RL algorithm and conventional methods, calculate indicators such as duration and number of vehicles, and generate summary reports.
