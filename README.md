@@ -17,7 +17,7 @@ Scripts that run traffic simulation experiments using specified traffic scenario
 
 
 **run_test.py:**
-A traffic simulation testing framework is implemented that allows the evaluation of trained traffic models using different traffic scenarios.
+Implementing a traffic simulation testing framework for evaluating trained traffic models using different traffic scenarios.
 
 **summary.py:** 
-It is used to summarize and analyze test results of RL algorithm and conventional methods, calculate indicators such as duration and number of vehicles, and generate summary reports.
+Analyzing and summarizing test results of RL algorithms and conventional methods, calculating indicators such as duration and number of vehicles, and generating summary reports.
